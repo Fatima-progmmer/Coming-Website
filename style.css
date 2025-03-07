@@ -84,3 +84,64 @@
         opacity: 2;
     }
 }
+
+
+/* 📱 Responsive Design */
+@media (max-width: 1024px) {
+    .content h1 {
+        font-size: 4vw;
+    }
+
+    .rocket {
+        width: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 6vw;
+    }
+
+    .content button {
+        width: 160px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .launch div p {
+        font-size: 2.5rem;
+    }
+
+    .rocket {
+        width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content h1 {
+        font-size: 7vw;
+    }
+
+    .content button {
+        width: 140px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+
+    .launch {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .launch div {
+        flex-basis: auto;
+    }
+
+    .launch div p {
+        font-size: 2rem;
+    }
+
+    .rocket {
+        width: 80px;
+    }
+}
